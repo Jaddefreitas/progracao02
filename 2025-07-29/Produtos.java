@@ -18,4 +18,10 @@ public class Produtos {
         System.out.println("" + nome + "" + preco + "" + quantidade);
     }
     
+    public Double total_valor_produto(){
+
+        Double total_valor_produto = this.preco * this.quantidade;
+        return total_valor_produto;
+        
+    }
 }
